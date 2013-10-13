@@ -17,3 +17,14 @@ Microsoft Translator Api.  This guarantees that the sentences read in your targe
 
 Source code organization
 --------------
+  1.  activity - All activity pages seen within the app.
+  2.  adapter - Holds any adapters used by app (ListView, Fragment, etc.)
+  3.  debug - Any classes that are used for debugging (MyLogger, etc.)
+  4.  forms - Objects that are derived from online files such as Rss feeds or Html files
+  5.  interfaces - any interfaces I have written
+  6.  parse - Everything related to the parsing of either XML or HTML.  Parsers extend base class ResourceParser and only properly formed XML may use my SAX extended XmlContentHandler
+  7.  translate - Classes used to physically translate text between two languages.
+  8.  webresource - Classes devoted to fetching online resources (Rss, Html, etc.) and parsing them into a collection of Objects (see forms).
+  9.  other - Anything else (Controllers, etc.) 
+
+
