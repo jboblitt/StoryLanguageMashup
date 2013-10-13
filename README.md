@@ -17,6 +17,7 @@ Microsoft Translator Api.  This guarantees that the sentences read in your targe
 
 Source code organization
 --------------
+Packages:
   1.  activity - All activity pages seen within the app.
   2.  adapter - Holds any adapters used by app (ListView, Fragment, etc.).
   3.  debug - Any classes that are used for debugging (MyLogger, etc.).
