@@ -26,6 +26,6 @@ Packages:
   6.  parse - Everything related to the parsing of either XML or HTML.  Parsers extend base class ResourceParser and only properly formed XML may use my SAX extended XmlContentHandler.
   7.  translate - Classes used to physically translate text between two languages.
   8.  webresource - Classes devoted to fetching online resources (Rss, Html, etc.) and parsing them into a collection of Objects (see forms).
-  9.  other - Anything else (Controllers, etc.).
+  9.  default - Anything else (Controllers, etc.).
 
 
