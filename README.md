@@ -14,3 +14,6 @@ Additional notes:
 --------------
   * The stories are pulled from the Web in the foreign language and then translated into your native language using the 
 Microsoft Translator Api.  This guarantees that the sentences read in your target language will have minimal grammatical mistakes (fully dependent on the Author of the story).  On the other hand the sentences read in your native language depend on the accuracy of the Microsoft Translator Api.
+
+Source code organization
+--------------
