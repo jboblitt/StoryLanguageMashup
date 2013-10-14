@@ -12,8 +12,7 @@ Before translating the entire page back into your native language, leave parts o
 
 Additional notes:
 --------------
-  * The stories are pulled from the Web in the foreign language and then translated into your native language using the 
-Microsoft Translator Api.  This guarantees that the sentences read in your target language will have minimal grammatical mistakes (fully dependent on the Author of the story).  On the other hand the sentences read in your native language depend on the accuracy of the Microsoft Translator Api.
+  * In the current version the stories are pulled from the Web and displayed in German (without translation functionality).  I hope to use (and pay for) the Google api upon the final release of this application.  Also the application will eventually provide other language translations other than German.  
 
 Source code organization
 --------------
