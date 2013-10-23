@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StoryLanguageMashup</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ActivityNewsHeadlines_manifest_label">Spiegel.de News Headlines</string>
+    <string name="ActivityMashup_manifest_label">Article Lanuage Mashup</string>
+
+
+</resources>

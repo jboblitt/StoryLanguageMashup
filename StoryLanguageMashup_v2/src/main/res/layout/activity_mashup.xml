@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/TextView_Mashup_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dim_Mashup_TextView_title_margin"
+        android:layout_marginRight="@dimen/dim_Mashup_TextView_title_margin"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dim_Mashup_TextView_title_textsize"
+        android:text="Title">
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextView_Mashup_PubDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextView_Mashup_Title"
+        android:gravity="center"
+        android:textSize="@dimen/dim_Mashup_TextView_pubdate_textsize"
+        android:text="Publication Date">
+    </TextView>
+
+    <SeekBar
+        android:id="@+id/SeekBar_Mashup_Percentage"
+        android:layout_width="@dimen/dim_Mashup_SeekBar_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dim_Mashup_SeekBar_margin_bottom"
+        android:max="100">
+    </SeekBar>
+
+    <ListView
+        android:id="@+id/ListView_ActivityMashup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/TextView_Mashup_PubDate"
+        android:layout_above="@id/SeekBar_Mashup_Percentage"
+        android:layout_margin="@dimen/dim_Mashup_story_margin"
+        android:fastScrollEnabled="true">
+    </ListView>
+    <!--<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/TextView_Mashup_PubDate"
+        android:layout_above="@id/SeekBar_Mashup_Percentage"
+        android:layout_margin="@dimen/dim_Mashup_ScrollView_story_margin">
+
+        <TextView
+            android:id="@+id/TextView_Mashup_Story"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/dim_Mashup_TextView_pubdate_textsize"
+            android:text="Story">
+        </TextView>
+    </ScrollView>-->
+
+
+</RelativeLayout>
